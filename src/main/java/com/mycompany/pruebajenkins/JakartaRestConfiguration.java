@@ -10,10 +10,3 @@ import jakarta.ws.rs.core.Application;
 @ApplicationPath("resources")
 public class JakartaRestConfiguration extends Application {
 }
-
-public class ExampleClass {
-    public static void main(String[] args) {
-        String password = "password";
-        System.out.println(password);
-    }
-}
